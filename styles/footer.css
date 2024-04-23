@@ -11,13 +11,13 @@
     @apply w-full text-white font-medium text-lg;
 }
 .footer-services{
-    @apply p-3 w-6/12 sm:w-4/12 md:w-3/12 lg:w-2/12;
+    @apply p-3 w-6/12 sm:w-4/12 md:w-3/12 lg:w-2/12 ;
 }
 .footer-services-header{
     @apply text-white capitalize font-bold text-xl mb-3;
 }
 .footer-text{
-    @apply list-none text-white text-lg py-2 capitalize block hover:text-purple-800;
+    @apply list-none text-white text-base py-2 capitalize block hover:text-purple-800;
 }
 .email{
     @apply py-3 pl-3 w-60;
@@ -33,5 +33,5 @@
     @apply bg-purple-300 fixed inset-0 flex items-center justify-center z-10;
 }
 .loader-element{
-    @apply border border-8 border-l-slate-100 border-purple-900 rounded-full inline-block w-[80px] h-[80px] animate-spin;
+    @apply border border-4 border-l-slate-100 border-purple-900 rounded-full inline-block w-[80px] h-[80px] animate-spin;
 }
