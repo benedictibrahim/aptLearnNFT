@@ -1,0 +1,43 @@
+.cards{
+    @apply bg-[#242133] py-20;
+}
+.cards-heading{
+    @apply w-full text-2xl text-white font-medium;
+}
+.cards-paragraph{
+    @apply mt-3 text-white text-lg;
+}
+.cards-column-left{
+    @apply w-full lg:w-6/12 p-5 flex justify-center;
+}
+.cards-column-right{
+    @apply w-full lg:w-6/12 p-5 flex justify-center items-center;
+}
+.cards-btn{
+    @apply border capitalize px-6 py-2 rounded-xl text-[#4f7dfd] border-[#4f7dfd] hover:text-white; 
+}
+.cards-img{
+    @apply w-[310px] h-[310px] rounded-xl;
+}
+.cards-layer{
+    @apply bg-blue-950 pb-5 inline-block rounded-t-xl rounded-r-xl;
+}
+.cards-column{
+    @apply w-full sm:w-6/12 lg:w-4/12 xl:w-3/12 p-3 flex items-center justify-center hover:scale-[1.1] cursor-pointer transition-all
+    duration-500;
+}
+.ellipse-img{
+    @apply w-[60px] h-[60px] mt-4 mx-3;
+}
+.cards-user{
+    @apply text-white capitalize font-medium text-base;
+}
+.cards-right-img-heading{
+    @apply text-white capitalize text-base font-medium;
+}
+.cards-eth{
+    @apply text-white text-xs;
+}
+.cards-img-btn{
+    @apply px-6 py-2 block border border-[#242133] text-white capitalize text-sm rounded-full shadow-lg bg-[#4f7dfd];
+}

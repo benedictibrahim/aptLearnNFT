@@ -1,0 +1,22 @@
+.categories{
+    @apply bg-[#242133];
+}
+.categories-heading{
+    @apply text-white text-2xl font-medium pb-20;
+}
+.category-left-col{
+    @apply w-full lg:w-6/12;
+}
+.category-header{
+    @apply text-3xl text-white font-bold mb-3;
+}
+.category-paragraph{
+    @apply text-white text-lg font-medium mb-10;
+}
+.category-btn{
+    @apply text-white font-medium text-lg bg-indigo-500 px-6 py-3 inline-block mb-20 rounded-lg
+    shadow-lg;
+}
+.category-right-col{
+    @apply w-full lg:w-6/12;
+}

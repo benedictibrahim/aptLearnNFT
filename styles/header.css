@@ -1,0 +1,45 @@
+.header{
+    @apply bg-[url("./images/bg.png")] py-20 relative;
+}
+.header-left-col{
+    @apply w-full lg:w-6/12 p-5;
+}
+.logo{
+    @apply text-white text-3xl font-bold absolute top-4 ml-6;
+}
+.heading{
+    @apply text-white text-2xl font-medium text-[#4f7dfd];
+}
+.header-heading{
+    @apply text-4xl text-white mt-5 w-full sm:w-7/12 md:w-9/12;
+}
+.header-paragraph{
+    @apply mt-5 text-white text-lg w-full sm:w-9/12 md:w-8/12 lg:w-10/12;
+}
+.header-btn{
+    @apply mt-5 inline-block text-[#4f7dfd] border py-2 px-6 hover:text-white rounded-xl text-base font-medium border-[#4f7dfd];
+}
+.header-right-col{
+    @apply w-full lg:w-6/12 p-5 flex items-center justify-center;
+}
+.heart-img{
+    @apply w-[300px] h-[300px] border rounded-xl inline-block;
+}
+.header-right-img{
+    @apply relative;
+}
+.heart{
+    @apply bg-white block pr-10 pl-2 py-1 rounded-full absolute top-2 left-2;
+}
+.img-layer{
+    @apply bg-slate-400/60 px-8 pt-8 pb-4 rounded-xl border hover:scale-[1.1] cursor-pointer transition-all duration-500;
+}
+.header-right-img-heading{
+    @apply text-lg mt-5 capitalize font-medium text-white;
+}
+.header-img-btn{
+    @apply bg-[#242133] px-6 py-2 block shadow-lg text-white capitalize text-sm rounded-full border border-[#4f7dfd];
+}
+.header-eth{
+    @apply text-slate-100 block text-sm;
+}
