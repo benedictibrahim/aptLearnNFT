@@ -1,5 +1,5 @@
 .header{
-    @apply bg-[url("./images/bg.png")] py-20 relative;
+    @apply bg-gradient-to-bl from-[#282236] to-[#2a213b] py-20 relative;
 }
 .header-left-col{
     @apply w-full lg:w-6/12 p-5;
@@ -38,8 +38,8 @@
     @apply text-lg mt-5 capitalize font-medium text-white;
 }
 .header-img-btn{
-    @apply bg-[#242133] px-6 py-2 block shadow-lg text-white capitalize text-sm rounded-full border border-[#4f7dfd];
+    @apply bg-[#242133] px-6 py-2 block shadow-lg text-white capitalize text-xs rounded-full border border-[#4f7dfd];
 }
 .header-eth{
-    @apply text-slate-100 block text-sm;
+    @apply text-slate-100 block text-xs;
 }
