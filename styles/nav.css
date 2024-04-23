@@ -2,13 +2,13 @@
     @apply fixed w-full top-0 -right-full w-full h-full bg-black/40 z-30 transition-all duration-500;
 }
 .navbar{
-    @apply absolute right-0 bg-purple-300 w-8/12 md:w-6/12 lg:w-3/12 xl:w-[20%] h-full flex items-center;
+    @apply absolute right-0 bg-[#4b4558] w-8/12 md:w-6/12 lg:w-3/12 xl:w-[20%] h-full flex items-center;
 }
 .nav-ul{
     @apply w-full;
 }
 .nav-li{
-    @apply text-[#242133] hover:text-white hover:bg-[#242133] block w-full py-3 px-4 text-lg capitalize
+    @apply text-white hover:text-white hover:bg-[#242133] block w-full py-3 px-4 text-lg capitalize
     transition-all duration-700 hover:ml-3 font-medium;
 }
 .nav-close{

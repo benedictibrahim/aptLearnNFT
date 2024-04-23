@@ -27,7 +27,7 @@
     @apply text-lg inline-block shadow-lg mt-5 bg-indigo-500 py-2 px-3 rounded-lg text-white capitalize;
 }
 .footer-copyright{
-    @apply text-white pt-20 px-3 text-sm;
+    @apply text-white pt-20 px-3 text-xs;
 }
 .loader{
     @apply bg-purple-300 fixed inset-0 flex items-center justify-center z-10;
